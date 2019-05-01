@@ -1,0 +1,233 @@
+body{
+	margin:0;
+}
+nav{
+	background-color:#c62f2f
+}
+.nav-logo{
+	border-radius:50%;
+	width:32px;
+}
+.btn2{
+	margin:10px 40px 10px 40px;
+	height:32px;
+}
+
+.btn2 .page-item .page-link{
+	background-color:#c62f2f;
+	border: 1px solid #a82828;
+	color:#fff;
+}
+.btn2 .page-item .page-link:active{
+	background-color:#b12323;
+	color:#444
+}
+
+.input2{
+	margin:10px 0 10px 0;
+	height:32px;
+	border-radius:30px;
+	border:0;
+	background-color:#a82828;
+	color:#fff;
+}
+.input2::-webkit-input-placeholder{
+	color:#c77373;
+	font-size:16px;
+	line-height:52px;
+}
+.input2:focus{
+	background-color:#a82828;
+	color:#fff;
+}
+
+.avatar{
+	padding-left:10px;
+	line-height:50px;
+	color:#fff;
+}
+
+.avatar:hover{
+	color:#fff;
+}
+
+.avatar img{
+	float:left;
+	padding:12px 0 12px 0;
+	width:26px;
+	border-radius:50%;
+}
+
+.avatar span{
+	float:left;
+	color:#fff;
+	padding-left:5px;
+	font-size:18px;
+}
+
+.avatar i{
+	font-size:20px;
+	margin-left:-5px;
+}
+
+.avatar2{
+	padding-right:20px;
+}
+
+.menu{
+	float:left;
+	height:calc(100vh - 206px);
+	border-right: 1px solid #cfcfd1;
+	padding:0;
+	overflow-x:auto;
+	min-width:250px;
+}
+.menu-title{
+	padding:5px 15px 0 15px;
+	font-size:18px;
+}
+.menu .list-group-item{
+	border:none;
+	border-left:5px solid #fff;
+	color:#000;
+}
+.menu .list-group-item.active{
+	background-color:#e6e7ea;
+	border-left:5px solid #c62f2f;
+	color:#000;
+}
+.menu .list-group-item i{
+	padding-right:10px;
+}
+.menu::-webkit-scrollbar {
+        width: 10px;
+        height: 1px;
+    }
+.menu::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+         -webkit-box-shadow: inset 0 0 5px #cfcfd1;
+        background: #cfcfd1;
+    }
+.menu::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 5px #fff;
+        border-radius: 10px;
+        background: #fff;
+    }
+.body{
+	position:fixed;
+	top:68px;
+	margin:auto;
+	margin-left:250px;
+	height:calc(100vh - 136px);
+	width:calc(100vw - 250px);
+	background-color:#fff;
+	padding:10px;
+	overflow-x:auto;
+}
+.body::-webkit-scrollbar {
+        width: 10px;
+        height: 1px;
+    }
+.body::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+         -webkit-box-shadow: inset 0 0 5px #cfcfd1;
+        background: #cfcfd1;
+    }
+.body::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 5px #fff;
+        border-radius: 10px;
+        background: #fff;
+    }
+.nav-body{
+	width:calc(100vw - 250px);
+}
+.nav-body .nav{
+	margin: auto;
+	margin-bottom:20px;
+	border-bottom:1px solid #cfcfd1;
+}
+.nav-body .nav .nav-item.active{
+	border-bottom:2px solid #c62f2f;
+}
+.nav-body .nav .nav-item a{
+	color:#000;
+}
+.nav-body .nav .nav-item.active a{
+	color:#c62f2f;
+}
+.nav-body .nav .nav-item a.disabled{
+	color:#cfcfd1;
+}
+.carousel-body{
+	margin:auto;
+	padding:0 20px 0 20px;
+}
+.carousel-indicators li.active{
+	background-color:#c62f2f;
+	height:5px;
+}
+/********
+
+歌单列表
+
+
+********/
+.music2{
+	position:fixed;
+	top:calc(100vh - 138px);
+	margin-left:0;
+	height:70px;
+	width:250px;
+	border-top:1px solid #cfcfd1;
+	border-right:1px solid #cfcfd1;
+}
+.music2 .left-avatar{
+	float:left;
+}
+.music2 .left-avatar img{
+	width:70px;
+	height:70px;
+}
+.music2 .right-info{
+	float:left;
+}
+.music2 p{
+	margin:5px 0 0 10px;
+}
+.music2 .right-info p.music2-title{
+	font-size:18px;
+}
+.music2 .right-info p.music2-user{
+	font-size:16px;
+}
+.footer{
+	position:fixed;
+	bottom:0;
+	height:68px;
+	border-top:1px solid #cfcfd1;
+}
+
+.button2{
+	float:left;
+	padding-right:40px;
+}
+
+.button2 button{
+	border-radius:50%;
+	background-color:#c62f2f;
+	color:#fff;
+	margin:9px;
+	line-height:50px;
+	width:50px;
+	height:50px;
+}
+.button2 button:hover{
+	color:#cfcfd1;
+}
+.button2 button i{
+	position:fixed;
+	margin:-7px 0 0 -7px;
+}
+.progress2{
+	margin:26px 0 26px 0;
+}
